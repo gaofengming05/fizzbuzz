@@ -20,28 +20,28 @@ bool test01() {
 	myOut out;
 	analysis(in, out);
 	myOut Out = "4";
-	check(out, Out);
+	return check(out, Out);
 }
 bool test02() {
 	myIn in = 6;
 	myOut out;
 	analysis(in, out);
 	myOut Out = "Fizz";
-	check(out, Out);
+	return check(out, Out);
 }
 bool test03() {
 	myIn in = 5;
 	myOut out;
 	analysis(in, out);
 	myOut Out = "Buzz";
-	check(out, Out);
+	return check(out, Out);
 }
 bool test04() {
 	myIn in = 15;
 	myOut out;
 	analysis(in, out);
 	myOut Out = "FizzBuzz";
-	check(out, Out);
+	return check(out, Out);
 }
 int main(int argc, char** argv) {
 	cout << "test01:" << test01() << endl;
