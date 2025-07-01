@@ -29,6 +29,13 @@ bool test02() {
 	myOut Out = "Fizz";
 	check(out, Out);
 }
+bool test03() {
+	myIn in = 5;
+	myOut out;
+	analysis(in, out);
+	myOut Out = "Buzz";
+	check(out, Out);
+}
 
 
 
