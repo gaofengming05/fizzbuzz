@@ -9,7 +9,12 @@ bool check(myOut out, myOut Out) {
 	}
 	else return 1;
 }
-
+void analysis(myIn in, myOut& out) {
+	if (in % 3 == 0 && in % 5 == 0) { out = "FizzBuzz"; }
+	if (in % 3 == 0) { out = "Fizz"; }
+	if (in % 5 == 0) { out == "Buzz"; }
+	else { out = to_string(in); }
+}
 
 
 
