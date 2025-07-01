@@ -36,7 +36,19 @@ bool test03() {
 	myOut Out = "Buzz";
 	check(out, Out);
 }
-
+bool test04() {
+	myIn in = 15;
+	myOut out;
+	analysis(in, out);
+	myOut Out = "FizzBuzz";
+	check(out, Out);
+}
+int main(int argc, char** argv) {
+	cout << "test01:" << test01() << endl;
+	cout << "test02:" << test02() << endl;
+	cout << "test03:" << test02() << endl;
+	cout << "test04:" << test02() << endl;
+}
 
 
 
