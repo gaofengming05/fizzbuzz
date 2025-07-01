@@ -19,10 +19,16 @@ bool test01() {
 	myIn in = 4;
 	myOut out;
 	analysis(in, out);
-	myOut Out = "1";
+	myOut Out = "4";
 	check(out, Out);
 }
-
+bool test02() {
+	myIn in = 6;
+	myOut out;
+	analysis(in, out);
+	myOut Out = "Fizz";
+	check(out, Out);
+}
 
 
 
